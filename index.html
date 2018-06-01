@@ -1,0 +1,1328 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>TUTORIAL DSUPE</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema10.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+<script src="phonegap.js"></script> <!-- necesario-->
+	
+<style type="text/css">
+#firstface h3
+	{
+		opacity: 1;
+		text-shadow: 4px 4px 5px #9C1F84;
+	}
+#firstface
+	{
+		opacity: 0.8;
+	}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/maxresdefault.jpg','imagenes/vb.net_do_loop.jpg','imagenes/small_normal.jpg','imagenes/Snap 2013-07-09 at 22.34.29.jpg','imagenes/oa.png','imagenes/comparacionope.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+	<h1>TUTORIAL DSUPE</h1>
+</div>
+
+<div>
+<br>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/enviarcont.png" alt="RECONOCE EL ENTORNO GRAFICO DEL DFD" title="RECONOCE EL ENTORNO GRAFICO DEL DFD" id="wows1_0"/></li>
+		<li><img src="data1/images/icono_archivo_exe.png" alt="CONVIERTE PROGRAMAS ELABORADOS EN ARCHIVOS EJECUTABLES" title="CONVIERTE PROGRAMAS ELABORADOS EN ARCHIVOS EJECUTABLES" id="wows1_1"/></li>
+		<li><img src="data1/images/maxresdefault_1.jpg" alt="OPERADORES POR JERARQUIA" title="OPERADORES POR JERARQUIA" id="wows1_2"/></li>
+		<li><img src="data1/images/oparitmeticos.png" alt="OPERADORES" title="OPERADORES" id="wows1_3"/></li>
+		<li><img src="data1/images/11estructurasderepeticiontema1144638.jpg" alt="DESARROLLA PROCESOS DE ESTRUCTURA REPETITIVA" title="DESARROLLA PROCESOS DE ESTRUCTURA REPETITIVA" id="wows1_4"/></li>
+		<li><img src="data1/images/cgato.png" alt="RECONOCE EL ENTORNO GRAFICO DEL C#" title="RECONOCE EL ENTORNO GRAFICO DEL C#" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/comparacionope.jpg" alt="wowslider" title="DESARROLLA PROCESOS DE ESTRUCTURA LINEAL" id="wows1_6"/></a></li>
+		<li><img src="data1/images/pseint.jpg" alt="RECONOCE EL ENTORNO GRAFICO DEL PSEINT" title="RECONOCE EL ENTORNO GRAFICO DEL PSEINT" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="RECONOCE EL ENTORNO GRAFICO DEL DFD"><span><img src="data1/tooltips/enviarcont.png" alt="RECONOCE EL ENTORNO GRAFICO DEL DFD"/>1</span></a>
+		<a href="#" title="CONVIERTE PROGRAMAS ELABORADOS EN ARCHIVOS EJECUTABLES"><span><img src="data1/tooltips/icono_archivo_exe.png" alt="CONVIERTE PROGRAMAS ELABORADOS EN ARCHIVOS EJECUTABLES"/>2</span></a>
+		<a href="#" title="OPERADORES POR JERARQUIA"><span><img src="data1/tooltips/maxresdefault_1.jpg" alt="OPERADORES POR JERARQUIA"/>3</span></a>
+		<a href="#" title="OPERADORES"><span><img src="data1/tooltips/oparitmeticos.png" alt="OPERADORES"/>4</span></a>
+		<a href="#" title="DESARROLLA PROCESOS DE ESTRUCTURA REPETITIVA"><span><img src="data1/tooltips/11estructurasderepeticiontema1144638.jpg" alt="DESARROLLA PROCESOS DE ESTRUCTURA REPETITIVA"/>5</span></a>
+		<a href="#" title="RECONOCE EL ENTORNO GRAFICO DEL C#"><span><img src="data1/tooltips/cgato.png" alt="RECONOCE EL ENTORNO GRAFICO DEL C#"/>6</span></a>
+		<a href="#" title="DESARROLLA PROCESOS DE ESTRUCTURA LINEAL"><span><img src="data1/tooltips/comparacionope.jpg" alt="DESARROLLA PROCESOS DE ESTRUCTURA LINEAL"/>7</span></a>
+		<a href="#" title="RECONOCE EL ENTORNO GRAFICO DEL PSEINT"><span><img src="data1/tooltips/pseint.jpg" alt="RECONOCE EL ENTORNO GRAFICO DEL PSEINT"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+	<li class="ui-first-child ui-last-child">
+	<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+		<h2>DESARROLLAR EL PROCESO PARA DAR SOLUCIÓN A UN PROBLEMA POR COMPUTADORA</h2>
+    </a>
+	</li>
+	<li class="ui-first-child ui-last-child">
+		<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+			<h2>IDENTIFICA Y APLICA EL PRINCIPIO DE PROGRAMACIÓN ESTRUCTURADA</h2>
+		</a>
+	</li>
+	<li class="ui-first-child ui-last-child">
+		<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+			<h2>RECONOCIMIENTO DEL ENTORNO DE DESARROLLO GRÁFICO DEL <strong>DFD</strong></h2>
+            <p>Diagrama de flujo de datos</p>
+		</a>
+	</li>
+	<li class="ui-first-child ui-last-child">
+		<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+			<h2>RECONOCIMIENTO DEL ENTORNO DE DESARROLLO GRÁFICO DEL <strong>PSEINT</strong></h2>
+            <p>Software</p>
+		</a>
+	</li>
+	<li class="ui-first-child ui-last-child">
+		<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+			<h2>RECONOCIMIENTO DEL ENTORNO DE DESARROLLO GRÁFICO DE <strong>C#</strong></h2>
+			<p>Lenguaje de programación</p>
+		</a>
+	</li>
+	<li class="ui-first-child ui-last-child">
+		<a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+			<h2>DESARROLLA PROCESOS DE ESTRUCTURA LINEAL</h2>
+		</a>
+	</li>
+	<li class="ui-first-child ui-last-child">
+		<a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+			<h2>DESARROLLA PROCESOS DE ESTRUCTURA CONDICIONAL</h2>
+		</a>
+	</li>
+	<li class="ui-first-child ui-last-child">
+		<a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+			<h2>DESARROLLA PROCESOS DE ESTRUCTURA REPETITIVA</h2>
+		</a>
+	</li>
+	<li class="ui-first-child ui-last-child">
+		<a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+			<h2>USO DE VARIABLES TIPO <em>ARREGLO</em></h2>
+		</a>
+	</li>
+	<li class="ui-first-child ui-last-child">
+		<a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+			<h2>CONVIERTE PROGRAMAS ELABORADOS EN ARCHIVOS EJECUTABLES</h2>
+		</a>
+	</li>
+    <li class="ui-first-child ui-last-child">
+		<a href="#Pagina11" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+			<h2>DATOS DEL DESARROLLADOR</h2>
+		</a>
+	</li>
+    </ul>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <br>
+    	<img src="res/android/mdpi.png" width="6%" height="6%">
+        </div>
+        <div>
+    <h4>Aplicacion Diez</h4>
+    <h4>Joshua Mayorga Maca</h4>
+    </div>
+    </div>
+    </div>
+    
+    
+    
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>DESARROLLAR EL PROCESO PARA DAR SOLUCIÓN A UN PROBLEMA POR COMPUTADORA</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+	<div id="firstface">
+	<ul>
+		<li style="list-style: none; background-image: url(imagenes/codigo-fuente-programacion.jpg);">
+			<br>
+			<h3 style="color: #FFFFFF;">A) IDENTIFICAR EL PROBLEMA</h3>
+			<br>
+		</li>
+	</ul>
+	<p style="text-align: justify;">Reconocer o distinguir que determinada cosa es la misma que se busca o se supone.</p>
+	<ul>
+		<li style="list-style: none; background-image: url(imagenes/codigo-fuente-programacion.jpg);">
+			<br>
+			<h3 style="color: #FFFFFF;">B) ANALIZAR EL PROBLEMA</h3>
+			<br>
+		</li>
+	</ul>
+	<p style="text-align: justify;">Examinar detalladamente, separando o considerando por separado sus partes, para conocer sus características o cualidades, o su estado, y extraer conclusiones.</p>
+	<ul>
+		<li style="list-style: none; background-image: url(imagenes/codigo-fuente-programacion.jpg);">
+			<br>
+			<h3 style="color: #FFFFFF;">C) ELABORAR EL ALGORITMO QUE DA SOLUCIÓN AL PROBLEMA</h3>
+			<br>
+		</li>
+	</ul>
+	<p style="text-align: justify; color: #681D94;"><b><big>"ALGORITMO"</big></b></p>
+	<p style="text-align: justify; color: #37275F"><i>serie de normas o leyes específicas que hace posible la ejecución de actividades, cumpliendo una serie de pasos continuos que no le originen dudas a la persona que realice dicha actividad.</i></p>
+	<p style="text-align: justify;"><a href="http://conceptodefinicion.de/algoritmo/" target="_self">"Definición de algoritmo" - conceptodefinicion.de - diciembre 21, 2016, A: None</a></p>
+	<p style="text-align: justify;">Sin tener dudas de lo que se requiere como solución al problema, procedemos a escribir el algoritmo</p>
+	<table width="600" border="0" align="center">
+  <tbody>
+    <tr>
+      <td>Paso 1:</td>
+      <td style="color: #671719">INICIO</td>
+    </tr>
+    <tr>
+      <td>Paso 2:</td>
+      <td>TENER TRASTES</td>
+    </tr>
+    <tr>
+      <td>Paso 3:</td>
+      <td>TENER AGUA</td>
+    </tr>
+    <tr>
+      <td>Paso 4:</td>
+      <td>TENER JABÓN</td>
+    </tr>
+    <tr>
+      <td>Paso 5:</td>
+      <td>TENER ESPONJA</td>
+    </tr>
+    <tr>
+      <td>Paso 6:</td>
+      <td>TENER FIBRA METALICA</td>
+    </tr>
+    <tr>
+      <td>Paso 7:</td>
+      <td>CLASIFICAR MIS TRASTES</td>
+    </tr>
+    <tr>
+      <td>Paso 8:</td>
+      <td>HACER LA ENJABONADURA</td>
+    </tr>
+    <tr>
+      <td>Paso 9:</td>
+      <td>LAVAR LOS TRASTES</td>
+    </tr>
+    <tr>
+      <td>Paso 10:</td>
+      <td>LAVAR LOS VASOS</td>
+    </tr>
+    <tr>
+      <td>Paso 11:</td>
+      <td>LAVAR LAS OLLAS</td>
+    </tr>
+    <tr>
+      <td>Paso 12:</td>
+      <td>LAVAR LOS SARTENES</td>
+    </tr>
+    <tr>
+      <td>Paso 13:</td>
+      <td>LAVAR LAS CASUELAS</td>
+    </tr>
+    <tr>
+      <td>Paso 14:</td>
+      <td>LAVAR LOS CUBIERTOS</td>
+    </tr>
+    <tr>
+      <td>Paso 15:</td>
+      <td>PONER LOS TRASTES EN EL ESCURRIDERO</td>
+    </tr>
+    <tr>
+      <td>Paso 16:</td>
+      <td>PONER LOS VASOS EN EL ESCURRIDERO</td>
+    </tr>
+    <tr>
+      <td>Paso 17:</td>
+      <td>PONER LAS OLLAS EN EL ESCURRIDERO</td>
+    </tr>
+    <tr>
+      <td>Paso 18:</td>
+      <td>PONER LOS SARTENES EN EL ESCURRIDERO</td>
+    </tr>
+    <tr>
+      <td>Paso 19:</td>
+      <td>PONER LAS CASUELAS EN EL ESCURRIDERO</td>
+    </tr>
+    <tr>
+      <td>Paso 20:</td>
+      <td>PONER LOS CUBIERTOS EN EL ESCURRIDERO</td>
+    </tr>
+    <tr>
+      <td>Paso 21:</td>
+      <td style="color: #671719">FIN</td>
+    </tr>
+  </tbody>
+</table>
+
+	<ul>
+		<li style="list-style: none; background-image: url(imagenes/codigo-fuente-programacion.jpg);">
+			<br>
+			<h3 style="color: #FFFFFF;">D) HACER EL ANALISIS DE LOS DATOS</h3>
+			<br>
+		</li>
+	</ul>
+	<p style="text-align: justify;">Para realizar un algoritmo necesitamos conocer que tenemos que tener para inciar, no podemos lavar platos sin platos ya que es una incoherencia.</p>
+	<p style="text-align: justify;">Obviamente el paso numero 1 es el <strong>"Inicio"</strong> ya que es esencial iniciar la actividad para poder resolverla</p>
+	<p style="text-align: justify;">A partir de aqui el algoritmo se conforma de la siguiente manera:</p>
+	<table width="600"  border="0">
+  <tbody>
+    <tr>
+      <td style="color: #3B0405">ENTRADA</td>
+      <td style="color: #3B0405">PROCESO</td>
+      <td style="color: #3B0405">SALIDA</td>
+    </tr>
+    <tr>
+      <td>Son los valores obtenidos del programa que representan al mundo real.</td>
+      <td>Descripción de las operaciones que se llevarán a cabo con las entradas anteriores</td>
+      <td>Son los valores resultantes al transformar los valores de la entrada</td>
+    </tr>
+  </tbody>
+</table>
+
+	<p style="text-align: justify;">Y por ultimo asi como el primer paso fue el inicio, el ultimo será el <strong>Fin</strong></p>
+		<ul>
+		<li style="list-style: none; background-image: url(imagenes/codigo-fuente-programacion.jpg);">
+			<br>
+			<h3 style="color: #FFFFFF;">E) ELABORAR DIAGRAMAS DE FLUJO</h3>
+			<br>
+		</li>
+	</ul>
+	<h3>DIAGRAMA DE FLUJO</h3>
+	<p style="text-align: justify;">Es la representación gráfica-simbólica del algoritmo, nos indica el flujo lógico de cada paso definido.</p>
+	<img src="imagenes/CU00168A_1.png" width="20%" height="20%">
+	<h3>PROPIEDADES</h3>
+	<p style="text-align: justify;">1.- Un diagrama de flujo siempre se realiza de arriba a abajo y de izquierda a derecha</p>
+	<p style="text-align: justify;">2.- Las flechas de flujo siempre tocan al simbolo superior y al simbolo inferios</p>
+	<p style="text-align: justify;">3.- Las flechas de flujo nunca se cruzan</p>
+	<h3>SIMBOLOS</h3>
+	<p style="text-align: justify;">El <strong>ovalo</strong> indica el inicio y el final del diagrama de flujo Indica su uso con la palabra a su interior</p>
+	<img src="imagenes/iniciodfd.png" width="20%" height="20%">
+	<p style="text-align: justify;">El <strong>trapecio</strong> indica recibir en una variable un dato de entrada usando el teclado. Poner la variable a su interior</p>
+	<img src="imagenes/recibdatoentrada.png" width="20%" height="20%">
+	<p style="text-align: justify;">El <strong>cono horizontal</strong> indica enviar el contenido de una variable a salida, representa el monitor o pantalla.</p>
+	<p style="text-align: justify;">Podemos indicar que mande de salida un mensaje de teto poniendole comilla sencilla en los extremos.</p>
+	<img src="imagenes/enviarcont.png" width="20%" height="20%">
+	<p style="text-align: justify;">El <strong>romboide</strong> indica recibir en una variable un dato de entrada usando el teclado o enviar un dato contenido en una variable en la salida, comunmente monitor o pantalla.</p>
+	<p style="text-align: justify;">Al usrlo debemos indicar en su interior la palabra "Leer o Escribir" segun su uso.</p>
+	<p style="text-align: justify;">Podemos indicar que mande una salida de mensaje de texto</p>
+	<img src="imagenes/recibirvar.png" width="20%" height="20%">
+	<p style="text-align: justify;">El <strong>rectangulo</strong> indica procesos de datos. Hacer un calculo de operaciones aritmèticas.</p>
+	<p style="text-align: justify;">Para asignar el calculo aritmético a una variable se usa "="</p>
+	<img src="imagenes/procesodatos.png" width="20%" height="20%">
+	<ul>
+		<li style="list-style: none; background-image: url(imagenes/codigo-fuente-programacion.jpg);">
+			<br>
+			<h3 style="color: #FFFFFF;">F) CREAR EL PSEUDOCÒDIGO DE LA SOLUCIÓN</h3>
+			<br>
+		</li>
+	</ul>
+	<p style="text-align: justify;">Es la presentación narrativa de cada paso del algoritm; esta narrativa obedece a la lengua narrativa del programador.</p>
+	<img src="imagenes/pseint.jpg" width="20%" height="20%">
+	<ul>
+		<li style="list-style: none; background-image: url(imagenes/codigo-fuente-programacion.jpg);">
+			<br>
+			<h3 style="color: #FFFFFF;">G) CREAR EL CODIGÓ DE LA SOLUCIÓN</h3>
+			<br>
+		</li>
+	</ul>
+	<h3>LENGUAJE DE PROGRAMACIÓN</h3>
+	<p style="text-align: justify;"><strong>LENGUAJE DE PROGRAMACIÓN:</strong> es un conjunto de palabras con cierta base sintática y semántica, para construir instrucciones que forman un programa de computadora.</p>
+	<p style="text-align: justify;">Comprende un conjunto de palabras reservadas propias las cuales tienen su base sintática de uso y su base semántica de forma.</p>
+	<br>
+	<h3>C#</h3>
+	<p style="text-align: justify;">Cuando nombramos las variables, hay que tener en cuenta para C# las mayúsculas y las minúsculas son diferentes.</p>
+	<h4>Aplicandolo a varibles</h4>
+	<p style="text-align: justify;"><strong>Se usa el método WriteLine()</strong> o el método Write() de la clase Consoles usando una cadena de formato y una lista de variables.</p>
+	<p style="text-align: justify;"><strong>Se usa el método ReadLine()</strong> de la clase Consoles y nos regresa una cadena o texto que contiene lo que escribió el usuario con el teclado.</p>
+	<img src="imagenes/cgato.png" width="20%" height="20%">
+	<ul>
+		<li style="list-style: none; background-image: url(imagenes/codigo-fuente-programacion.jpg);">
+			<br>
+			<h3 style="color: #FFFFFF;">H) HACER PRUEBAS DE ESCRITORIO</h3>
+			<br>
+		</li>
+	</ul>
+	<p style="text-align: justify;">Las pruebas de escritorio se hacen en el boton de la barra de herramientas "DEPURAR"</p>
+	<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image43','','imagenes/maxresdefault.jpg',1)"><img src="imagenes/hilos_nuevo_proyecto_eledwin_zpsc51da787.jpg" alt="" width="30%" height="30%" id="Image43"></a> </div>
+    </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <br>
+    	<img src="res/android/mdpi.png" width="6%" height="6%">
+    </div>
+    <h4>Aplicacion Diez, MMJ</h4>
+    </div>
+    </div>
+    
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>IDENTIFICA Y APLICA EL PRINCIPIO DE PROGRAMACIÓN ESTRUCTURADA</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div style="justify-content:center">
+
+ <p style="text-align: justify;">La programación estructurada es una técnica para escribir programas (programación de computadora) de manera clara. Para ello se utilizan únicamente tres estructuras: secuencia, selección e iteración; siendo innecesario el uso de la instrucción o instrucciones de transferencia incondicional (GOTO, EXIT FUNCTION, EXIT SUB o múltiples RETURN).</p>
+
+<h3>ESTRUCTURA SELECTIVA O DE SELECCIÓN</h3>
+ <p style="text-align: justify;">La estructura selectiva permite que la ejecución del programa se bifurque a una instrucción (o conjunto) u otra/s, según un criterio o condición lógica establecida, sólo uno de los caminos en la bifurcación será el tomado para ejecutarse.
+Ejemplo:
+   IF a (signo mayorque) b THEN
+      PRINT a ; " es mayor que " ; b
+   ELSE
+      PRINT a ; " no es mayor que " ; b
+   END IF</p>
+
+ <p style="text-align: justify;">La instrucción selectiva anterior puede presentar uno de dos mensajes: a es mayor que b o a no es mayor que b, según el resultado de la comparación entre a y b; si el resultado de a (signo mayorque) b es verdadero, se presenta el primer mensaje, si es falso se exterioriza el segundo. Las palabras clave IF, THEN, ELSE, y END IF; constituyen la propia estructura de la instrucción condicional (palabra reservadas), proporcionada por el lenguaje, el usuario no debe utilizar sus nombres salvo para este fin. El caso ejemplo se ha codificado en BASIC.</p>
+
+<ul style="list-style: none">
+	<li>
+		<p><strong>IF</strong> señala el comienzo de la instrucción condicional, y se espera que después siga la condición lógica de control de la instrucción.</p>
+	</li>
+	<li>
+	<p><strong>THEN</strong> señala el fin de la condición, y después estará la instrucción a ejecutar si la condición es verdadera.</p>
+	</li>
+	<li>
+	<p><strong>ELSE</strong> es opcional, le sigue la instrucción que se ejecutará <strong>si la condición es falsa.</strong></p>
+	</li>
+	<li>
+	<p><strong>END IF</strong> indica el final de la estructura, luego de ésta el programa seguirá su curso.</p>
+	</li>
+</ul>
+     <div data-role="main" class="ui-content" align="center" >
+    <ul data-role="controlgroup" data-type="vertical" data-theme="a" style="font-size-adjust:">
+     <li class="ui-fist-child- ui-last-child">
+     <a href="http://rafaelcastilloiii.blogspot.com/2011/07/principios-fundamentales-de-la.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <p>LEER MAS</p>
+    </a>
+	</li>
+    </ul>
+  </div>    
+</div>
+</div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <br>
+    	<img src="res/android/mdpi.png" width="6%" height="6%">
+    </div>
+    <h4>Aplicacion Diez, MMJ</h4>
+    </div>
+    </div> 
+
+    
+    
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>RECONOCIMIENTO DEL ENTORNO DE DESARROLLO GRÁFICO DEL DFD</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+	<h3>SIMBOLOGÍA CONDICIONAL DE DIAGRAMAS DE FLUJO</h3>		 
+    <p style="text-align: justify;">El rombo sirve para evaluar su condición, al evaluarla se tiene un valor de verdad de dos valores posibles.</p>
+<p style="text-align: justify;">El valor de la condición puede ser <strong>verdadero.</strong></p>
+<p style="text-align: justify;">El valor de la condición puede ser <strong>falso.</strong></p>
+
+<p style="text-align: justify;">La ejecución del flujo sigue en el lado que distinga el <strong>verdadero</strong> si la condición es <strong>verdadera</strong></p>
+<p style="text-align: justify;">La ejecución del flujo sigue en el lado que distinga el <strong>falso</strong> si la condición es <strong>falsa</strong></p>
+
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image42','','imagenes/vb.net_do_loop.jpg',1)"><img src="imagenes/if_statement.jpg" alt="" width="40%" height="40%" id="Image42"></a>
+<br>
+<br>
+<table width="200" border="0.2px">
+  <tbody>
+    <tr>
+      <td><</td>
+      <td>MENOR QUE</td>
+    </tr>
+    <tr>
+      <td><=</td>
+      <td>MENOR O IGUAL QUE</td>
+    </tr>
+    <tr>
+      <td>></td>
+      <td>MAYOR QUE</td>
+    </tr>
+    <tr>
+      <td>>=</td>
+      <td>MAYOR O IGUAL QUE</td>
+    </tr>
+    <tr>
+      <td>!=</td>
+      <td>DIFERENTE A</td>
+    </tr>
+    <tr>
+      <td>==</td>
+      <td>IGUAL A</td>
+    </tr>
+  </tbody>
+</table>
+
+<div data-role="main" class="ui-content" align="center" >
+    <ul data-role="controlgroup" data-type="vertical" data-theme="a" style="font-size-adjust:">
+     <li class="ui-fist-child- ui-last-child">
+     <a href="https://www.youtube.com/watch?v=qDttSc3RQBc" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <p>VE UN VIDEO PARA SABER MAS!</p>
+    </a>
+	</li>
+    </ul>
+  </div>  
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+    	<img src="res/android/mdpi.png" width="6%" height="6%">
+    </div>
+    <h4>Aplicacion Diez, MMJ</h4>
+  </div>
+    </div>
+    </div>
+    </div>
+    
+    
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>RECONOCIMIENTO DEL ENTORNO DE DESARROLLO GRÁFICO DE PSEINT</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div style="justify-content:center">
+
+<h3>¿PARA QUE SIRVE PSEINT?</h3>
+ <p style="text-align: justify;">PSeInt está pensado para asistir a los estudiantes que se inician en la construcción de programas o algoritmos computacionales. El pseudocódigo se suele utilizar como primer contacto para introducir conceptos básicos como el uso de estructuras de control, expresiones, variables, etc, sin tener que lidiar con las particularidades de la sintaxis de un lenguaje real. Este software pretende facilitarle al principiante la tarea de escribir algoritmos en este pseudolenguaje presentando un conjunto de ayudas y asistencias, y brindarle ademas algunas herramientas adicionales que le ayuden a encontrar errores y comprender la lógica de los algoritmos.</p>
+
+<h3>CARACTERISTICAS Y FUNCIONALIDADES DE PSEINT</h3>
+ <ul width="50px">
+ 	<li>
+ 		<p>Presenta herramientas de edición básicas para escribir algoritmos en pseudocodigo en español</p>
+ 	</li>
+ 	<li>
+ 		<p>Permite la edición simultánea de múltiple algoritmos</p>
+ 	</li>
+ 	<li>
+ 		<p>Presenta ayudas para la escritura</p>
+ 		<li>
+ 			<p>Autocompletado</p>
+ 		</li>
+ 		<li>
+ 		<p>Ayudas Emergentes</p>
+	    </li>
+	    <li>
+	    <p>Plantillas de Comandos</p>
+	    </li>
+	    <li>
+	    <p>Coloreado de Sintaxis</p>
+	    </li>
+	    <li>
+	    <p>Indentado Inteligente</p>
+	    </li>
+ 	</li>
+ 	<li>
+ 		<p>Puede ejecutar los algoritmos escritos</p>
+ 	</li>
+ </ul>
+ <br>
+ <h3>ALGORITMOS</h3>
+ <p style="text-align: justify;">Un programa escrito en PseudoCódigo comienza con la palabra clave Proceso seguida del nombre del programa, luego le sigue una secuencia de instrucciones y finaliza con la palabra FinProceso.</p>
+ <p style="text-align: justify;">Donde una secuencia de instrucciones es una lista de una o más instrucciones, cada una terminada en punto y coma.</p>
+   <p style="text-align: justify;">Se pueden introducir comentarios luego de una instrucción, o en líneas separadas, mediante el uso de la doble barra ( // ). Todo lo que precede a //, hasta el fin de la línea, no será tomado en cuenta al interpretar el algoritmo.
+
+Note que no puede haber instrucciones fuera del programa, aunque sí comentarios.
+
+Las estructuras no secuenciales pueden anidarse. Es decir, pueden contener otras adentro, pero la estructura contenida debe comenzar y finalizar dentro de la contenedora.</p>
+    
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image41','','imagenes/small_normal.jpg',1)"><img src="imagenes/small_calltips.jpg" alt="" width="40%" height="40%" id="Image41"></a>
+   
+<div data-role="main" class="ui-content" align="center" >
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a" style="font-size-adjust:">
+     <li class="ui-fist-child- ui-last-child">
+     <a href="https://eduardoscorpion.wordpress.com/2011/11/02/pseint-como-lenguaje-de-programacion/" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <p>LEER MAS</p>
+    </a>
+	</li>
+    </ul>
+</div>    
+</div>
+</div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <br>
+    	<img src="res/android/mdpi.png" width="6%" height="6%">
+    </div>
+    <h4>Aplicacion Diez, MMJ</h4>
+    </div>
+    </div> 
+    
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>RECONOCIMIENTO DEL ENTORNO DE DESARROLLO GRÁFICO DE C#</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div style="justify-content:center">
+
+<h3>EXPRESIONES CONDICIONALES EN C# SIMPLES Y COMPUESTAS</h3>
+ <p style="text-align: justify;">Una expresión condicional simple se forma con un operador binario relacional (==,!=,>,<,>=,<=) y al evaluarla nos da un valor de:.</p>
+ 
+ <table width="200" border="0">
+  <tbody>
+    <tr>
+      <td style="color: #571517">VERDADERO</td>
+      <td style="color: #571517">FALSO</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h3>Si p y q son expresiones condicionales simples:</h3>
+ <br>
+<table width="200" border="0">
+  <tbody>
+    <tr>
+      <th scope="col">p</th>
+      <th scope="col">q</th>
+      <th scope="col">p AND q</th>
+    </tr>
+    <tr>
+      <td align="center">V</td>
+      <td align="center">V</td>
+      <td align="center">V</td>
+    </tr>
+    <tr>
+      <td align="center">F</td>
+      <td align="center">F</td>
+      <td align="center">F</td>
+    </tr>
+    <tr>
+      <td align="center">F</td>
+      <td align="center">V</td>
+      <td align="center">F</td>
+    </tr>
+    <tr>
+      <td align="center">V</td>
+      <td align="center">F</td>
+      <td align="center">F</td>
+    </tr>
+    <tr>
+      <td align="center">F</td>
+      <td align="center">F</td>
+      <td align="center">F</td>
+    </tr>
+  </tbody>
+</table>
+
+  <h3>Su disyunción es:</h3>
+ <br>
+<table width="200" border="0">
+  <tbody>
+    <tr>
+      <th scope="col">p</th>
+      <th scope="col">q</th>
+      <th scope="col">p OR q</th>
+    </tr>
+    <tr>
+      <td align="center">V</td>
+      <td align="center">V</td>
+      <td align="center">V</td>
+    </tr>
+    <tr>
+      <td align="center">V</td>
+      <td align="center">F</td>
+      <td align="center">V</td>
+    </tr>
+    <tr>
+      <td align="center">F</td>
+      <td align="center">V</td>
+      <td align="center">V</td>
+    </tr>
+    <tr>
+      <td align="center">F</td>
+      <td align="center">F</td>
+      <td align="center">F</td>
+    </tr>
+  </tbody>
+</table>  
+
+<h3>La negación cambia el valor y tiene prioridad mayor sobre el AND y el OR</h3>
+ <br>
+<table width="200" border="0">
+  <tbody>
+    <tr>
+      <th scope="col">p</th>
+      <th scope="col">q</th>
+      <th scope="col">Not p</th>
+      <th scope="col">Not q</th>
+    </tr>
+    <tr>
+      <td align="center">V</td>
+      <td align="center">V</td>
+      <td align="center">F</td>
+      <td align="center">F</td>
+    </tr>
+    <tr>
+      <td align="center">V</td>
+      <td align="center">F</td>
+      <td align="center">F</td>
+      <td align="center">V</td>
+    </tr>
+    <tr>
+      <td align="center">F</td>
+      <td align="center">V</td>
+      <td align="center">V</td>
+      <td align="center">F</td>
+    </tr>
+    <tr>
+      <td align="center">F</td>
+      <td align="center">F</td>
+      <td align="center">V</td>
+      <td align="center">V</td>
+	</tr>
+  </tbody>
+</table>
+ <br>
+  <br>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/Snap 2013-07-09 at 22.34.29.jpg',1)"><img src="imagenes/Snap 2013-07-09 at 22.34.15.jpg" alt="" width="40%" height="40%" id="Image18"></a>
+   
+<div data-role="main" class="ui-content" align="center" >
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a" style="font-size-adjust:">
+     <li class="ui-fist-child- ui-last-child">
+     <a href="http://di002.edv.uniovi.es/~benja/cs/presentaciones/3-CsAppConsola.pdf" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <p>LEER MAS</p>
+    </a>
+	</li>
+    </ul>
+</div>    
+</div>
+</div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <br>
+    	<img src="res/android/mdpi.png" width="6%" height="6%">
+    </div>
+    <h4>Aplicacion Diez, MMJ</h4>
+    </div>
+    </div> 
+    
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>DESARROLLA PROCESOS DE ESTRUCTURA LINEAL</h1>
+    </div>
+<div data-role="content" align="center">
+    <div style="justify-content:center">
+	<div id="firstface">
+<ul>
+	<li style="list-style: none; background-image: url(imagenes/codigo-fuente-programacion.jpg);">
+		<br>
+		<h3 style="color: #FFFFFF;">A) IDENTIFICA Y APLICA EL CONCEPTO DE VARIABLE</h3>
+		<br>
+	</li>
+	</ul>
+	<p style="text-align: justify; color: #681D94;"><b><big>"VARIABLE"</big></b></p>
+	<p style="text-align: justify; color: #37275F"><i>espacio de memoria reservado para almacenar un valor determinado que corresponde a un tipo de dato soportado por el lenguaje de programación en el cual se trabaja.</i></p>
+	<p style="text-align: justify;"><a href="http://www.alegsa.com.ar/Dic/variable.php" target="_self">"Definición de variable (programación)" - Alegsa.com.ar - Mayo 17, 2018, A: None</a></p>
+<ul>
+	<li style="list-style: none; background-image: url(imagenes/codigo-fuente-programacion.jpg);">
+		<br>
+		<h3 style="color: #FFFFFF;">B) APLICA LAS VARIABLES EN LAS OPERACIONES QUE DEFINEN SUS ALGORITMOS</h3>
+		<br>
+	</li>
+	</ul>
+ <p style="text-align: justify;">1.- Reconoce y aplica las variables en las operaciones que definen (de trabajo, contadoras y acumuladoras).</p>
+<p style="text-align: justify;">2.- Reconoce y aplica las variables de acuerdo a su contenido (numéricas, alfanuméricas y lógicas).</p>
+<p style="text-align: justify;">3.- Reconoce y aplica las variables de acuerdo a su ámbito (locales y globales)</p>
+<ul>
+	<li style="list-style: none; background-image: url(imagenes/codigo-fuente-programacion.jpg);">
+		<br>
+		<h3 style="color: #FFFFFF;">C) OPERADORES ARITMÉTICOS Y SU JERARQUÍA</h3>
+		<br>
+	</li>
+	</ul>
+
+<h3>JERARQUÍA DE OPERADORES</h3>
+ <br>
+	<p style="text-align: justify; color: #681D94;"><b><big>"OPERADOR"</big></b></p>
+	<p style="text-align: justify; color: #37275F"><i>un operador es un símbolo o palabra que significa que se ha de realizar cierta acción entre uno o dos valores que son llamados operandos.</i></p>
+	<div data-role="main" class="ui-content" align="center" >
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a" style="font-size-adjust:">
+     <li class="ui-fist-child- ui-last-child">
+     <a href="http://teoria-de-programacion.globered.com/categoria.asp?idcat=36" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <p>DEFINICIÓN COMPLETA</p>
+    </a>
+	</li>
+    </ul>
+</div>    
+ 
+ 
+ <br>
+ <h3>TIPOS DE OPERADORES</h3>
+ <p style="text-align: justify;">a) Aritméticos (su resultado es un número): potencia, *, /, mod, div, +, -.</p>
+ <p style="text-align: justify;">b) Relacionales (su resultado es un valor de verdad): =, <, >, <=, >=, <>.</p>
+  <p style="text-align: justify;">c) Lógicos o Booleanos (su resultado es un valor de verdad): not, and, or.</p>
+  <p style="text-align: justify;">d) Alfanuméricos: + (concatenación).</p>
+  <p style="text-align: justify;">e) Asociativos. El único operador asociativo es el paréntesis ( ) , el cual permite indicar en qué orden deben realizarse las operaciones. Cuando una expresión se encuentra entre paréntesis, indica que las operaciones que están dentro de ellos debe realizarse primero. Si en una expresión se utilizan más de un paréntesis se deberá proceder primero con los que se encuentren más hacia el centro de la expresión. .</p>
+    
+  <h3>JERARQUÍA DE OPERADORES</h3>
+  <table width="200" border="0">
+  <tbody>
+    <tr>
+      <td style="align-content: center">()</td>
+    </tr>
+    <tr>
+      <td style="align: center">SIGNO</td>
+    </tr>
+    <tr>
+      <td style="alignt: center">POTENCIA</td>
+    </tr>
+    <tr>
+      <td style="align: center">PRODUCTO Y DIVISIÓN</td>
+    </tr>
+    <tr>
+      <td style="align: center">DIV</td>
+    </tr>
+    <tr>
+      <td style="align: center">MOD</td>
+    </tr>
+    <tr>
+      <td style="align: center">SUMA Y RESTA</td>
+    </tr>
+    <tr>
+      <td style="align: center">CONCATENACIÓN</td>
+    </tr>
+    <tr>
+      <td style="align: center">RELACIONALES</td>
+    </tr>
+    <tr>
+      <td style="align: center">NEGACIÓN</td>
+    </tr>
+    <tr>
+      <td style="align: center">AND</td>
+    </tr>
+    <tr>
+      <td style="align: center">OR</td>
+    </tr>
+  </tbody>
+</table>
+
+  <br>
+  <br>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image20','','imagenes/oa.png',1)"><img src="imagenes/oparitmeticos.png" alt="" width="40%" height="40%" id="Image20"></a> </div>
+</div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <br>
+    	<img src="res/android/mdpi.png" width="6%" height="6%">
+    </div>
+    <h4>Aplicacion Diez, MMJ</h4>
+    </div>
+    </div> 
+	</div>
+    
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>DESARROLLA PROCESOS DE ESTRUCTURA CONDICIONAL</h1>
+    </div>
+
+    
+   	   <div data-role="main" class="ui-content">
+	<div data-role="collapsible" data-content-theme="false" align="center">
+	<h1>A) ELEMENTOS DE UNA EXPRESIÓN CONDICIONAL</h1>
+    <div>
+   	<table width="600" border="0" align="center">
+  <tbody>
+    <tr>
+     <br>
+      <td style="color: #571517; text-align: left">OPERADORES COMPARATIVOS</td>
+      <td style="color: #571517; text-align: right">OPERADORES LÓGICOS</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+	<div>
+  <br>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image27','','imagenes/comparacionope.jpg',1)"><img src="imagenes/maxresdefault (1).jpg" alt="" width="40%" height="40%" id="Image27"></a>
+   </div>
+   </div>
+	</div>
+<div data-role="main" class="ui-content">
+	<div data-role="collapsible" data-content-theme="false">
+	<h1>B) MANIPULAR LA ESTRUCTURA DE DECISIÓN <strong>IF</strong></h1>
+    <div>
+    <p style="text-align: justify;">La instrucción if … else permite controlar qué procesos tienen lugar, típicamente en función del valor de una o varias variables, de un valor de cálculo o booleano, o de las decisiones del usuario. La sintaxis a emplear es:</p>
+    <br>
+    <ul width="100px" style="list-style:none">
+    	<li>
+   		<p style="text-align: left;">/* Ejemplo Estructura IF - aprenderaprogramar.com */</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">if (condición)</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">instrucciones</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">} else {</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">instrucciones</p>
+        </li>
+        <li>
+    	<p style="text-align: left;"> } </p>
+    	</li>
+    </ul>
+    </div>
+   </div>
+   </div>
+    <div data-role="main" class="ui-content">
+	<div data-role="collapsible" data-content-theme="false">
+	<h1>C) MANIPULAR LA ESTRUCTURA DE DECISIÓN <strong>IF-Else</strong></h1>
+    <div>
+    <p style="text-align: justify;">Una instrucción if identifica qué enunciado ejecutar en función del valor de una expresión booleana. En el siguiente ejemplo, el resultado de la variable booleana se establece en verdadero y luego se marca en la declaración if. La salida es La condición es verdadera.</p>
+<br>
+    <ul width="100px" style="list-style:none">
+    	<li>
+   		<p style="text-align: left;">bool condition = true;</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">if (condición)</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">{</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">Console.WriteLine("The variable is set to true.");</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">}</p>
+        </li>
+        <li>
+    	<p style="text-align: left;"> else </p>
+    	</li>
+        <li>
+    	<p style="text-align: left;"> { </p>
+    	</li> 
+        <li>
+    	<p style="text-align: left;"> Console.WriteLine("The variable is set to false."); </p>
+    	</li>       
+		<li>
+    	<p style="text-align: left;">}</p>
+    	</li> 
+    </ul>
+    </div>
+   </div>
+   </div>
+    <div data-role="main" class="ui-content">
+	<div data-role="collapsible" data-content-theme="false">
+	<h1>D) MANIPULAR LA ESTRUCTURA DE DECISIÓN <strong>Else-IF</strong></h1>
+    <div>
+    <p style="text-align: justify;">
+La construcción else-if permite que se evalúen más expresiones condicionales que la construcción if-else cubierta anteriormente.
+
+Lo que esto significa es que podemos agregar aún más capacidad de toma de decisiones a nuestros bocetos de Arduino. Se puede verificar una sola variable para ver si contiene uno cualquiera de una serie de valores diferentes y se puede tomar una decisión según el valor que contenga la variable.</p>
+    <br>
+        <ul width="100px" style="list-style:none">
+    	<li>
+   		<p style="text-align: left;">if (conditional expression 1) {</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">}</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">else if (conditional expression 2) {</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">}</p>
+        </li>
+    </ul>
+    </div>
+   </div>
+   </div>
+ <div data-role="main" class="ui-content">
+	<div data-role="collapsible" data-content-theme="false">
+	<h1>E) MANIPULAR LA ESTRUCTURA DE DECISIÓN <strong>SWITCH</strong></h1>
+	<br>
+    <ul width="100px" style="list-style:none">
+    	<li>
+   		<p style="text-align: left;">switch(opción) //donde opción es la variable a comparar</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">{</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">case valor1: //Bloque de instrucciones 1;</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">break;</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">case valor2: //Bloque de instrucciones 2;</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">break;</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">case valor3: //Bloque de instrucciones 3;</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">break;</p>
+        </li>
+        <li>
+    	<p style="text-align: left;"> //Nótese que valor 1 2 y 3 son los valores que puede tomar la opción
+    //la instrucción break es necesaria, para no ejecutar todos los casos.</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">default: //Bloque de instrucciones por defecto;</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">//default, es el bloque que se ejecuta en caso de que no se de ningún caso</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">}</p>
+        </li>
+    </ul>
+   </div>
+   </div>    
+ <div data-role="main" class="ui-content">
+	<div data-role="collapsible" data-content-theme="false">
+	<h1>F) MANIPULAR LA ESTRUCTURA DE DECISIÓN EN FORMA DE ANIDAMIENTOS</h1>
+    <p style="text-align: justify;">En los lenguajes de programación estructurada, el anidamiento está relacionado a la inclusión de estructuras de control dentro de otras, usualmente indicado mediante la inclusión de distintos niveles de sangría (llamada indentation en inglés) dentro del código fuente, como se muestra en el sencillo código BASIC siguiente:</p>
+	<br>
+	    <ul width="100px" style="list-style:none">
+    	<li>
+   		<p style="text-align: left;">function BuscarCodigo(cod as string) as integer</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">dim linea, ruta as string</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">dim valor_a_devolver as integer</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">ruta="C:\Probar.csv"</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">if FileExists(ruta) then</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">open "C:\Probar.csv" for input as #1</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">do while not EOF(1)</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">line input #1, linea</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">if left(linea, 3)=cod then</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">'Realizar una acción o varias acciones</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">loop</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">close #1</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">BuscarCodigo=valor_a_devolver</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">end function</p>
+        </li>
+    </ul>
+   </div>
+   </div> 
+   
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/images.png" alt="EJEMPLO DOBLE CONDICION" title="EJEMPLO DOBLE CONDICION" id="wows2_0"/></li>
+		<li><img src="data2/images/ordinograma_si_doble.jpg" alt="EJEMPLO CONDICION DOBLE CAMINO" title="EJEMPLO CONDICION DOBLE CAMINO" id="wows2_1"/></li>
+		<li><img src="data2/images/vb.net_do_loop.jpg" alt="EJEMPLO SI LA CONDICION ES VERDADERA REGRESAR" title="EJEMPLO SI LA CONDICION ES VERDADERA REGRESAR" id="wows2_2"/></li>
+		<li><img src="data2/images/while.jpg" alt="EJEMPLO 2 SI LA CONDICION ES VERDADERA" title="EJEMPLO 2 SI LA CONDICION ES VERDADERA" id="wows2_3"/></li>
+		<li><img src="data2/images/condicional3.png" alt="CONDICIONAL SIMPLE" title="CONDICIONAL SIMPLE" id="wows2_4"/></li>
+		<li><img src="data2/images/foto027.jpg" alt="EJEMPLO CONDICION FALSO ES VERDADERO" title="EJEMPLO CONDICION FALSO ES VERDADERO" id="wows2_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/foto032.jpg" alt="wowslideshow" title="EJEMPLO SI CONDICION ES VERDADERO ENVIA PANTALLA" id="wows2_6"/></a></li>
+		<li><img src="data2/images/holo.jpg" alt="EJEMPLO CONDICION DOS FINALES" title="EJEMPLO CONDICION DOS FINALES" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="EJEMPLO DOBLE CONDICION"><span><img src="data2/tooltips/images.png" alt="EJEMPLO DOBLE CONDICION"/>1</span></a>
+		<a href="#" title="EJEMPLO CONDICION DOBLE CAMINO"><span><img src="data2/tooltips/ordinograma_si_doble.jpg" alt="EJEMPLO CONDICION DOBLE CAMINO"/>2</span></a>
+		<a href="#" title="EJEMPLO SI LA CONDICION ES VERDADERA REGRESAR"><span><img src="data2/tooltips/vb.net_do_loop.jpg" alt="EJEMPLO SI LA CONDICION ES VERDADERA REGRESAR"/>3</span></a>
+		<a href="#" title="EJEMPLO 2 SI LA CONDICION ES VERDADERA"><span><img src="data2/tooltips/while.jpg" alt="EJEMPLO 2 SI LA CONDICION ES VERDADERA"/>4</span></a>
+		<a href="#" title="CONDICIONAL SIMPLE"><span><img src="data2/tooltips/condicional3.png" alt="CONDICIONAL SIMPLE"/>5</span></a>
+		<a href="#" title="EJEMPLO CONDICION FALSO ES VERDADERO"><span><img src="data2/tooltips/foto027.jpg" alt="EJEMPLO CONDICION FALSO ES VERDADERO"/>6</span></a>
+		<a href="#" title="EJEMPLO SI CONDICION ES VERDADERO ENVIA PANTALLA"><span><img src="data2/tooltips/foto032.jpg" alt="EJEMPLO SI CONDICION ES VERDADERO ENVIA PANTALLA"/>7</span></a>
+		<a href="#" title="EJEMPLO CONDICION DOS FINALES"><span><img src="data2/tooltips/holo.jpg" alt="EJEMPLO CONDICION DOS FINALES"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+        
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+    	<img src="res/android/mdpi.png" width="6%" height="6%">
+    </div>
+    <h4>Aplicacion Diez, MMJ</h4>
+  </div>
+    </div>
+    
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>DESARROLLA PROCESOS DE ESTRUCTURA REPETITIVA</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+	<div id="firstface">
+	<ul>
+		<li style="list-style: none; background-image: url(imagenes/codigo-fuente-programacion.jpg);">
+			<br>
+			<h3 style="color: #FFFFFF;">A) MANIPULAR LA ESTRUCTURA DE REPETICIÓN <strong>WHILE</strong></h3>
+			<br>
+		</li>
+	</ul>
+	<p style="text-align: justify;">La estructura mientras que (while) es aquella en la que el número de repeticiones de bucle no se conoce por anticipado, y el cuerpo del buque se repite mientras se cumple una determinada condición.</p>
+    <p style="text-align: justify;">Una condición es una expresión booleana (puede ver verdadera o falsa)  que se evalua al principio del bucle y antes de cada iteración de las sentencias.</p>
+    <p style="text-align: justify;">Si la condición es verdadera, se ejecuta el bloque de sentencias y se vuelve al principio del bucle.</p>
+    <p style="text-align: justify;">Si la condición es falsa, no se ejecuta el bloque mis} putos huevos de sentencias y se continúa con la siguiente sentencia del programa.</p>
+	<img src="imagenes/Estructuras_de_decisión_anidadas.jpg" width="20%" height="20%">
+	<ul>
+		<li style="list-style: none; background-image: url(imagenes/codigo-fuente-programacion.jpg);">
+			<br>
+			<h3 style="color: #FFFFFF;">B) MANIPULAR LA ESTRUCTURA DE REPETICIÓN<strong>DO-WHILE</strong></h3>
+			<br>
+		</li>
+	</ul>
+	<p style="text-align: justify;">La estructura do - while es similar a la estructura while, con la siguiente diferencia:</p>
+    <p style="text-align: justify;">do - while evalúa la condición después de haber ejecutado el bloque de instrucciones. Así, el bloque de instrucciones es ejecutado por lo menos una vez.</p>
+    <p style="text-align: justify;">El bloque <bloque de instrucciones> es ejecutado al menos una vez y también es ejecutado mientras que la <expresión> sea igual a un valor diferente de cero.</p>
+    <p style="text-align: justify;">En la práctica, la estructura do - while no es más frecuentemente usada que el ciclo while, sin embargo, en ciertos casos su uso constituye una solución más elegante. Una aplicación típica del ciclo do - while es la captura de datos que deben cumplir con cierta condición:</p>
+	<img src="imagenes/While.gif" width="20%" height="20%">
+    	<ul>
+		<li style="list-style: none; background-image: url(imagenes/codigo-fuente-programacion.jpg);">
+			<br>
+			<h3 style="color: #FFFFFF;">C) MANIPULAR LA ESTRUCTURA DE REPETICIÓN <strong>FOR</strong></h3>
+			<br>
+		</li>
+	</ul>
+	<p style="text-align: justify;">La estructura for sirve para repetir un código dependiendo de un contador. Veamos un ejemplo:</p>
+    <p style="text-align: justify;">Primero se crea la variable contador de tipo entero (será la variable de control en el for). Luego se ejecuta la estructura for iniciando la variable contador en 1. Luego se verifica que se cumple la condición contador<=10 y se ejecuta el bloque dentro de la estructura, o sea, imprime en pantalla Repetición número 1.</p>
+    <p style="text-align: justify;">Luego la variable contador es incrementada en uno con la expresión contador++ y el ciclo se inicia otra vez. La variable contador ahora vale 2, por lo tanto se verifica la condición y se vuelve a ejecutar el código. Este proceso se ejecuta hasta que contador toma el número 11 y la condición se hace falsa y no ejecuta el bloque.</p>
+		<br>
+	    <ul width="100px" style="list-style:none">
+    	<li>
+   		<p style="text-align: left;">int contador;</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">for (contador = 1; contador<=10; contador++)</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">{</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">printf(“Repetición numero %d\n”, contador);</p>
+        </li>
+        <li>
+    	<p style="text-align: left;">}</p>
+        </li>
+    </ul>
+    <ul>
+		<li style="list-style: none; background-image: url(imagenes/codigo-fuente-programacion.jpg);">
+			<br>
+			<h3 style="color: #FFFFFF;">D) MANIPULAR LA ESTRUCTURA DE REPETICIÓN<strong>EN FORMA DE ANIDAMIENTO</strong></h3>
+			<br>
+		</li>
+	</ul>
+	<p style="text-align: justify;">se usa en las instrucciones do, for, while para saltar el resto de las instrucciones que están entre llaves y se vaya a la siguiente ejecución del bucle comprobando la expresión condicional.</p>
+	<img src="imagenes/11-estructuras-de-repeticiontema11-44-638.jpg" width="20%" height="20%">
+    </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <br>
+    	<img src="res/android/mdpi.png" width="6%" height="6%">
+    </div>
+    <h4>Aplicacion Diez, MMJ</h4>
+    </div>
+    </div>
+    </div>
+    
+    <div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>USO DE VARIABLES TIPO ARREGLO</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+	<div id="firstface">
+	<ul>
+		<li style="list-style: none; background-image: url(imagenes/codigo-fuente-programacion.jpg);">
+			<br>
+			<h3 style="color: #FFFFFF;">USO DE VARIABLES TIPO ARREGLO</h3>
+			<br>
+		</li>
+	</ul>
+    <p style="text-align: justify; color: #681D94;"><b><big>"ARREGLOS"</big></b></p>
+	<p style="text-align: justify; color: #37275F"><i> El arreglo es un tipo estructurado de dato, el cual
+es capaz de almacenar una colección de datos del
+mismo tipo.</i></p>
+	<p style="text-align: justify; color: #37275F"><i> Es la estructura de datos más utilizada por los
+programadores.</i></p>
+	<p style="text-align: justify; color: #37275F"><i> Es la forma más simple de agrupar componentes
+de un mismo tipo y asociarles un número de
+orden de cada componente llamado índice.</i></p>
+	<p style="text-align: justify; color: #37275F"><i> Los arreglos en C, se almacenan en posiciones
+contiguas de memoria.</i></p>
+    <br>
+    <p style="text-align: justify;">Los índices de los arreglos comienzan en cero,
+es decir, el primer elemento, es el elemento
+cero.</p>
+    <p style="text-align: justify;">Si un arreglo es declarado en la función
+principal “main()” tendra las dimensiones
+incluidas.</p>
+    <p style="text-align: justify;">Cuando se pasa un arreglo a una función, esta
+ultima no necesita saber el tamaño.</p>
+	<img src="imagenes/estrucutraenmapeo.PNG" width="20%" height="20%">
+
+    </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <br>
+    	<img src="res/android/mdpi.png" width="6%" height="6%">
+    </div>
+    <h4>Aplicacion Diez, MMJ</h4>
+    </div>
+    </div>
+    </div>
+    
+    <div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>CONVIERTE PROGRAMAS ELABORADOS EN ARCHIVOS EJECUTABLES</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+	<div id="firstface">
+	<ul>
+		<li style="list-style: none; background-image: url(imagenes/codigo-fuente-programacion.jpg);">
+			<br>
+			<h3 style="color: #FFFFFF;">COMO CREAR UN .EXE</h3>
+			<br>
+		</li>
+	</ul>
+    <p style="text-align: justify;">1. Crea el proyecto(de Consola, de windows o web) que desea instalar.</p>
+    <p style="text-align: justify;">2. Agrega un proyecto instalador a la solucion donde tiene el proyecto(de Consola, de windows o web).</p>
+    <p style="text-align: justify;">Te dejo este tutorial para que te guie. <a href="http://windowsclient.net/blogs/linkecubeko/archive/2009/05/01/crear-un-instalador-para-windowsapplication-en-visual-studio-paso-a-paso.aspx">Crear un instalador para WindowsApplication en Visual Studio paso a paso..</a></p>
+	<img src="imagenes/Sin título-5.jpg" width="20%" height="20%">
+
+    </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <br>
+    	<img src="res/android/mdpi.png" width="6%" height="6%">
+    </div>
+    <h4>Aplicacion Diez, MMJ</h4>
+    </div>
+    </div>
+    </div>
+    
+     <div data-role="page" id="Pagina11" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>DATOS DEL DESARROLLADOR</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+	<div id="firstface">
+	<ul>
+		<li style="list-style: none; background-image:url(imagenes/sublime-text.jpg)">
+			<br>
+			<h3 style="color: #FFFFFF;">DATOS DEL DESARROLLADOR</h3>
+			<br>
+		</li>
+	</ul>
+    <br>
+    <br>
+    <table width="200" border-collapse="collapse" cellspacing="10px">
+  <tr>
+    <td>Desarrollado por:</td>
+    <td>Joshua Mayorga Maca</td>
+  </tr>
+  <tr>
+    <td>Grupo:</td>
+    <td>"E"</td>
+  </tr>
+  <tr>
+    <td>Semestre:</td>
+    <td>Cuarto</td>
+  </tr>
+  <tr>
+    <td>Submodulo:</td>
+    <td>Desarrolla aplicaciones moviles DAM</td>
+  </tr>
+  <tr>
+    <td>Nombre del docente:</td>
+    <td>Lic. José Antonio Gómez hernández</td>
+  </tr>
+</table>
+<br>
+<br>
+
+    <table cellspacing="20px">
+    <tr>
+    	<td><a href="https://www.facebook.com/Josmaymaca"><img src="imagenes/2000px-F_icon.svg.png" width="100px" height="100px"></a></td>
+        <td><a href="https://twitter.com/FlappyNetwork"><img src="imagenes/Twitter-logo.png" width="100px" height="100px"></a></td>
+    </tr>
+    </table>
+    </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <br>
+    	<img src="res/android/mdpi.png" width="6%" height="6%">
+    </div>
+    <h4>Aplicacion Diez, MMJ</h4>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
